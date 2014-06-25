@@ -1,19 +1,13 @@
-# sp-tessel-gps-test
+# Tessel GPRS Playground
 
-Testing the Tessel GPS module. 
+This is a work in progress collection of examples, resources, and commands for the Tessel GPRS module. 
 
-[![build status](https://secure.travis-ci.org/facultymatt/sp-tessel-gps-test.png)](http://travis-ci.org/facultymatt/sp-tessel-gps-test)
+This includes my development branch of the GRPS module as a dependency, instead of the Tessels official package.
 
-## Installation
+## Examples
 
-This module is installed via npm:
+Look inside the `/examples` folder.
 
-``` bash
-$ npm install sp-tessel-gps-test
-```
+## Commands
 
-## Example Usage
-
-``` js
-var spTesselGpsTest = require('sp-tessel-gps-test');
-```
+Commands to control the SimCom900 chip, which powers the GPRS module's cellular communication.
